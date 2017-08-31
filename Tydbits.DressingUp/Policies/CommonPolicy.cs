@@ -7,6 +7,8 @@ using Tydbits.DressingUp.State;
 
 namespace Tydbits.DressingUp.Policies
 {
+    // Main business logic implementation, providing state transition decisions to State.
+    // Delegates On/Off implementaion to Rules.
     public abstract class CommonPolicy : IPolicy
     {
         public abstract bool IsApplicable(ClothingType clothing);

@@ -6,6 +6,9 @@ using Tydbits.DressingUp.State;
 
 namespace Tydbits.DressingUp
 {
+    // Processes command line input, applying commands to State.
+    // Delegates parsing of the command line "language" to Parser.
+    // Uses Responses for producing HOT/COLD command line output.
     public class Interpreter
     {
         private readonly Parser _parser;

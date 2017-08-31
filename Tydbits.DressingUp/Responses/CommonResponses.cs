@@ -3,6 +3,7 @@ using Tydbits.DressingUp.Clothing;
 
 namespace Tydbits.DressingUp.Responses
 {
+    // Common HOT/COLD command line responses for Interpreter.
     public abstract class CommonResponses : IResponses
     {
         public string TakeOffPJs()

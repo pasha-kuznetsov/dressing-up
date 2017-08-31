@@ -4,6 +4,8 @@ using Tydbits.DressingUp.Policies;
 
 namespace Tydbits.DressingUp.State
 {
+    // Main business logic entry point implementation.
+    // Delegates Policy decisions to Policy.
     public class State : IState
     {
         private readonly ISet<ClothingType> _clothingOn;

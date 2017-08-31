@@ -2,6 +2,7 @@
 
 namespace Tydbits.DressingUp
 {
+    // Command line entry point.
     public class Program
     {
         private static void Main(string[] args)

@@ -3,6 +3,7 @@ using Tydbits.DressingUp.Clothing;
 
 namespace Tydbits.DressingUp.Responses
 {
+    // HOT command line responses for Interpreter.
     public class HotResponses : CommonResponses
     {
         public override string PutOn(ClothingType clothing)

@@ -6,6 +6,7 @@ using Tydbits.DressingUp.Clothing;
 
 namespace Tydbits.DressingUp.Responses
 {
+    // Implemntations provide HOT/COLD command line responses to Interpreter.
     public interface IResponses
     {
         string TakeOffPJs();

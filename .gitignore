@@ -1,0 +1,8 @@
+*.idea
+*.vs
+*.7z
+*.user
+
+bin/
+obj/
+packages/

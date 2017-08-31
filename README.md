@@ -1,3 +1,36 @@
+Program Structure
+=================
+
+`Tydbits.DressingUp`
+
+Business logic
+
+* `Clothing`
+    - `ClothingType` descriptors and associated `ClosingSet` classification utility
+* `Policies`
+    - The meat of business logic, mostly in `CommonPolicy`
+    - `HotPolicy` and `ColdPolicy` filter/define applicability of `ClosingType`
+* `Rules`
+    - Utility classes for the above `Policies`
+* `State`
+    - Main business logic class housing the state
+
+Command line interface
+
+* `Responses`
+    - Command line interface responses for HOT and COLD temperature types
+* `Interpreter`
+    - Command line logic interpreter
+* `Parser`
+    - Command line "language" parser used by the above interpreter
+* `Program`
+    - Command line entry point
+
+`Tydbits.DressingUp.Test`
+
+* Tests for the above
+
+
 Building
 ========
 

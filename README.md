@@ -34,12 +34,41 @@ Command line interface
 Building
 ========
 
+Windows
+-------
+
 Use Visual Studio 2015+ to build `DressingUp.exe`
+
+Mono
+----
+
+Prerequisites
+* mono
+* nuget
+
+Building (from the .sln dir):
+* `nuget restore`
+* `xbuild`
 
 Running
 =======
 
-Pass input in command line.
+Pass input on the command line.
+
+Windows
+-------
+
+* `./Tydbits.DressingUp/bin/Debug/DressingUp.exe {commands}` or
+* `./Tydbits.DressingUp/bin/Release/DressingUp.exe {commands}`
+
+Mono
+----
+
+* `mono ./Tydbits.DressingUp/bin/Debug/DressingUp.exe {commands}` or
+* `mono ./Tydbits.DressingUp/bin/Release/DressingUp.exe {commands}`
+
+Examples
+--------
 
 Success:
 
